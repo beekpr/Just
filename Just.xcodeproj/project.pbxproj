@@ -205,6 +205,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 94DA2B4A1AE640390082DC6D;
@@ -269,12 +270,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37C817251DA9753500881C06 /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MARKETING_VERSION = 0.8.1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.JustHTTP.Just;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -284,12 +287,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37C817251DA9753500881C06 /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MARKETING_VERSION = 0.8.1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.JustHTTP.Just;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
